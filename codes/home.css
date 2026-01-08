@@ -1,9 +1,32 @@
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
 #header {
+    height: 100;
     background-image: linear-gradient(to right, rgb(51, 0, 91) , rgb(26, 26, 26));
+    position: sticky;
 }
 
 #relagtext {
     color:white;
     font-family: 'Dhurjati', sans-serif;
-    font-size: 59px;
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+
+#logo {
+    padding-bottom: 5px;
+}
+
+#navbar {
+    height: 60px;
+    padding-left: 25px;
+}
+
+#sidebar {
+    height: 60px;
+    padding-right: 25px;
 }
