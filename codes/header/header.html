@@ -1,0 +1,109 @@
+<div id="header" class="container-fluid no-select">
+  <div class="row align-items-center justify-content-center">
+    <div id="navbarIcon" class="col d-flex align-items-center">
+      <img
+        src="../../images/hamburgernav.png"
+        alt="nav button"
+        width="30"
+        height="25"
+        id="hamburger"
+        class="transition-all"
+        onclick="dynamicNav()"
+      />
+    </div>
+    <div id="relagtext" class="col text-center no-select">
+      <img
+        src="../../images/relaglogo.png"
+        alt="logo"
+        width="50"
+        height="44"
+        id="logo"
+      />
+      ReLaG
+    </div>
+    <div id="sidebarIcon" class="col d-flex align-items-center">
+      <img
+        src="../../images/sidebar.png"
+        alt="sidebar"
+        width="30"
+        height="40"
+        id="fireyicon"
+        class="ms-auto transition-all"
+        onclick="dynamicSide()"
+      />
+    </div>
+  </div>
+</div>
+
+<div id="navbarOpen" class="container-fluid transition-all no-select">
+  <div id="navbarClose" class="row align-items-center no-padding">
+    <p class="text-start mb-0 no-select" onclick="dynamicNav()">X</p>
+  </div>
+
+  <div
+    id="navbarHome"
+    class="navStyle row align-items-center border-gradient transition-all only-top"
+  >
+    <div class="col">
+      <img
+        src="../../images/home.png"
+        alt="home"
+        width="40"
+        style="margin-bottom: 5px; margin-right: 5px"
+      />
+      Home
+    </div>
+  </div>
+  <div
+    id="navbarGaleri"
+    class="navStyle row align-items-center border-gradient transition-all only-top"
+  >
+    <div class="col">
+      <img
+        src="../../images/gallery.png"
+        alt="galeri"
+        width="40"
+        style="margin-bottom: 5px; margin-right: 5px"
+      />
+      Galeri
+    </div>
+  </div>
+  <div
+    id="navbarAbout"
+    class="navStyle row align-items-center border-gradient transition-all only-top"
+  >
+    <div class="col">
+      <img
+        src="../../images/about.png"
+        alt="about"
+        width="40"
+        style="margin-bottom: 5px; margin-right: 5px"
+      />
+      About
+    </div>
+  </div>
+  <div
+    id="navbarKontak"
+    class="navStyle row align-items-center border-gradient transition-all"
+  >
+    <div class="col">
+      <img
+        src="../../images/Kontak.png"
+        alt="kontak"
+        width="40"
+        style="margin-bottom: 5px; margin-right: 5px"
+      />
+      Kontak
+    </div>
+  </div>
+</div>
+
+<div id="sidebarOpen" class="container-fluid transition-all">
+  <div
+    id="sidebarClose"
+    class="row align-items-center no-padding"
+    style="background-color: blue"
+  >
+    <p class="text-start mb-0 no-select" onclick="dynamicSide()">X</p>
+  </div>
+</div>
