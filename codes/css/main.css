@@ -54,7 +54,7 @@ html, body {
 }
 
 .productlabel {
-  margin-left: calc((100% - 300px) / 2 - 30px);
+  margin-left: calc((100% - 300px) / 2 - 40px);
   margin-right: auto;
 }
 
@@ -64,4 +64,17 @@ html, body {
 
 .boxshadow {
   box-shadow: 0px 0px 20px 5px #000000;
+}
+
+.poppins {
+  font-family: "Poppins";
+}
+
+.dropshadow {
+  filter: drop-shadow(-22px 3px 20px rgba(246, 245, 244, 0.11));
+}
+
+.scaleup:hover {
+  transform: scaleX(110%)
+             scaleY(110%);
 }

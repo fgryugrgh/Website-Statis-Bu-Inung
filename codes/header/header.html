@@ -8,7 +8,7 @@
         height="25"
         id="hamburger"
         class="transition-all"
-        onclick="dynamicNav()"
+        onclick="responsiveSides(1)"
       />
     </div>
     <div id="relagtext" class="col text-center no-select">
@@ -29,7 +29,7 @@
         height="40"
         id="fireyicon"
         class="ms-auto transition-all"
-        onclick="dynamicSide()"
+        onclick="responsiveSides(0)"
       />
     </div>
   </div>
@@ -37,7 +37,7 @@
 
 <div id="navbarOpen" class="container-fluid transition-all no-select">
   <div class="navbarClose row align-items-center no-padding">
-    <p class="text-start mb-0 no-select" onclick="dynamicNav()">X</p>
+    <p class="text-start mb-0 no-select" onclick="responsiveSides(1)">X</p>
   </div>
 
   <div
@@ -100,7 +100,7 @@
 
 <div id="sidebarOpen" class="container-fluid transition-all">
   <div class="navbarClose row align-items-center no-padding">
-    <p class="text-end mb-0 no-select" onclick="dynamicSide()">X</p>
+    <p class="text-end mb-0 no-select" onclick="responsiveSides(0)">X</p>
   </div>
   <div class="row g-0">
     <a href="https://mureks.co.id/asus-umumkan-rog-zephyrus-duo-di-ces-2026-laptop-gaming-dua-layar-oled-pertama-di-dunia-dengan-keyboard-lepas-pasang" target="_blank">
