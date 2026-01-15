@@ -1,8 +1,10 @@
 #header {
     top: 0;
+    z-index: 100;
     background-color: rgb(51, 0, 91);
-    background-image: linear-gradient(to right, rgb(51, 0, 91) , rgb(26, 26, 26));
+    background-image: linear-gradient(to right, rgb(51, 0, 91) , rgb(29, 2, 73));
     position: sticky;
+    box-shadow: 0px 0px 10px 1px #50315e
 }
 
 #relagtext {
@@ -37,6 +39,7 @@
 }
 
 #navbarOpen {
+    z-index: 102;
     width: 400px;
     height: 100vh;
     top: 0;
@@ -85,6 +88,7 @@
 }
 
 #sidebarOpen {
+    z-index: 102;
     width: 500px;
     height: 100%;
     background-color: rgba(0,0,0,0.8);
@@ -97,7 +101,7 @@
 }
 
 .headline {
-    font-family: "Poppins";
-    font-weight: 700;
-    color: white;
+    font-family: "Poppins" !important;
+    font-weight: 700 !important;
+    color: white !important;
 }
