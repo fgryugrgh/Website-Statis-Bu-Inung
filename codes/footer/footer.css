@@ -65,6 +65,7 @@
   border: none;
   background-color: #7A00FF;
   color: white;
+  cursor: pointer;
 }
 
 .fade-out {
